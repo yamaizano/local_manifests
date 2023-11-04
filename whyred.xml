@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/xiaomi/whyred" name="yamaizano/device_xiaomi_whyred" remote="github" revision="eleven" clone-depth="1" />
+    <project path="device/xiaomi/whyred" name="yamaizano/device_xiaomi_whyred" remote="github" revision="los" clone-depth="1" />
     <project path="device/xiaomi/sdm660-common" name="yamaizano/device_xiaomi_whyred-common" remote="github" revision="eleven" clone-depth="1" />
     <project path="kernel/xiaomi/whyred" name="Darkstar085/kernel_xiaomi_whyred" remote="github" revision="thirteen" clone-depth="1" />
     <project path="vendor/xiaomi/whyred" name="yamaizano/vendor_xiaomi_whyred" remote="github" revision="eleven" clone-depth="1" />
