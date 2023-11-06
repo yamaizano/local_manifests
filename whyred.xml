@@ -2,7 +2,7 @@
 <manifest>
     <project path="device/xiaomi/whyred" name="yamaizano/device_xiaomi_whyred" remote="github" revision="los" clone-depth="1" />
     <project path="device/xiaomi/sdm660-common" name="yamaizano/device_xiaomi_whyred-common" remote="github" revision="eleven" clone-depth="1" />
-    <project path="kernel/xiaomi/whyred" name="Mocaness/WhyredKernel" remote="github" revision="minimal-q" clone-depth="1" />
+    <project path="kernel/xiaomi/whyred" name="okta-10/mystic_kernel_sdm660-4.4" remote="github" revision="mystic-caf" clone-depth="1" />
     <project path="vendor/xiaomi/whyred" name="yamaizano/vendor_xiaomi_whyred" remote="github" revision="eleven" clone-depth="1" />
     <project path="vendor/xiaomi/sdm660-common" name="yamaizano/vendor_xiaomi_whyred-common" remote="github" revision="eleven" clone-depth="1" />
 
