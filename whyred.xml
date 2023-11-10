@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/xiaomi/whyred" name="yamaizano/device_xiaomi_whyred" remote="github" revision="los" clone-depth="1" />
-    <project path="device/xiaomi/sdm660-common" name="yamaizano/device_xiaomi_whyred-common" remote="github" revision="eleven" clone-depth="1" />
-    <project path="kernel/xiaomi/whyred" name="okta-10/mystic_kernel_sdm660-4.4" remote="github" revision="mystic-caf" clone-depth="1" />
-    <project path="vendor/xiaomi/whyred" name="yamaizano/vendor_xiaomi_whyred" remote="github" revision="eleven" clone-depth="1" />
-    <project path="vendor/xiaomi/sdm660-common" name="yamaizano/vendor_xiaomi_whyred-common" remote="github" revision="eleven" clone-depth="1" />
+    <project path="device/xiaomi/whyred" name="EdwinMoq/android_device_xiaomi_whyred" remote="github" revision="lineage-18.1" clone-depth="1" />
+    <project path="kernel/xiaomi/whyred" name="EdwinMoq/android_kernel_xiaomi_whyred" remote="github" revision="lineage-18.1" clone-depth="1" />
+    <project path="vendor/xiaomi/whyred" name="EdwinMoq/android_vendor_xiaomi_whyred" remote="github" revision="lineage-18.1" clone-depth="1" />
 
     <remove-project name="crdroidandroid/android_frameworks_base" />
     <project path="frameworks/base" name="yamaizano/android_frameworks_base" remote="github" revision="11.0" clone-depth="1" />
+
+    <project path="hardware/qcom-caf/display" name="EdwinMoq/android_hardware_qcom_display" remote="github" revision="sdm660-4.19" clone-depth="1" />
 </manifest>
