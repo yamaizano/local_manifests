@@ -2,7 +2,9 @@
 <manifest>
     <project path="device/xiaomi/whyred" name="yamaizano/device_xiaomi_whyred" remote="github" revision="thirteen" clone-depth="1" />
     <project path="device/xiaomi/sdm660-common" name="yamaizano/device_xiaomi_whyred-common" remote="github" revision="thirteen" clone-depth="1" />
+
     <project path="kernel/xiaomi/whyred" name="SakilMondal/kernul" remote="github" revision="thirteen" clone-depth="1" />
+
     <project path="vendor/xiaomi/whyred" name="yamaizano/vendor_xiaomi_whyred" remote="github" revision="thirteen" clone-depth="1" />
     <project path="vendor/xiaomi/sdm660-common" name="yamaizano/vendor_xiaomi_whyred-common" remote="github" revision="thirteen" clone-depth="1" />
 </manifest>
