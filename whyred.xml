@@ -7,11 +7,6 @@
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
     <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <remove-project name="LineageOS/android_device_qcom_sepolicy" />
-
-    <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
-    <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" revision="lineage-18.1-legacy" />
-    <project path="device/qcom/sepolicy-legacy-um" name="AOSP-bouquet/platform_device_xiaomi_bouquet-sepolicy" revision="TwistedScarlett" />
 
     <project path="hardware/qcom-caf/sdm660/display" name="yamaizano/platform_hardware_qcom_display" remote="github" revision="TwistedScarlett"  />
     <project path="hardware/qcom-caf/sdm660/audio" name="yamaizano/platform_hardware_qcom_audio" remote="github" revision="TwistedScarlett"  />
