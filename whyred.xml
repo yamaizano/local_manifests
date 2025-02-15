@@ -13,7 +13,6 @@
     <project path="hardware/qcom-caf/sdm660/media" name="yamaizano/platform_hardware_qcom_media" remote="github" revision="TwistedScarlett" />
 
     <remove-project name="lin18-microG/android_vendor_qcom_opensource_system_bt" />
-    <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
 
     <project path="vendor/qcom/opensource/commonsys/system/bt" name="yamaizano/android_vendor_qcom_opensource_system_bt" remote="github" revision="lineage-18.1" />
 </manifest>
