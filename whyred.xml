@@ -2,13 +2,18 @@
 <manifest>
     <project path="device/xiaomi/whyred" name="yamaizano/android_device_xiaomi_whyred" remote="github" revision="lineage-18.1-rebase" />
     <project path="kernel/xiaomi/whyred" name="Reinazhard/android_kernel_xiaomi_whyred" remote="github" revision="lineage-18.1-staging" />
-    <project path="vendor/xiaomi/whyred" name="yamaizano/android_vendor_xiaomi_whyred" remote="github" revision="lineage-18.1-rebase"  />
+    <project path="vendor/xiaomi/whyred" name="yamaizano/android_vendor_xiaomi_whyred" remote="github" revision="lineage-18.1-rebase" />
 
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
     <remove-project name="LineageOS/android_hardware_qcom_media" />
 
-    <project path="hardware/qcom-caf/sdm660/display" name="yamaizano/platform_hardware_qcom_display" remote="github" revision="TwistedScarlett"  />
-    <project path="hardware/qcom-caf/sdm660/audio" name="yamaizano/platform_hardware_qcom_audio" remote="github" revision="TwistedScarlett"  />
-    <project path="hardware/qcom-caf/sdm660/media" name="yamaizano/platform_hardware_qcom_media" remote="github" revision="TwistedScarlett"  />
+    <project path="hardware/qcom-caf/sdm660/display" name="yamaizano/platform_hardware_qcom_display" remote="github" revision="TwistedScarlett" />
+    <project path="hardware/qcom-caf/sdm660/audio" name="yamaizano/platform_hardware_qcom_audio" remote="github" revision="TwistedScarlett" />
+    <project path="hardware/qcom-caf/sdm660/media" name="yamaizano/platform_hardware_qcom_media" remote="github" revision="TwistedScarlett" />
+
+    <remove-project name="lin18-microG/android_vendor_qcom_opensource_system_bt" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
+
+    <project path="vendor/qcom/opensource/commonsys/system/bt" name="yamaizano/android_vendor_qcom_opensource_system_bt" remote="github" revision="lineage-18.1" />
 </manifest>
