@@ -12,13 +12,6 @@
     <project path="hardware/qcom-caf/sdm660/audio" name="yamaizano/platform_hardware_qcom_audio" remote="github" revision="TwistedScarlett" />
     <project path="hardware/qcom-caf/sdm660/media" name="yamaizano/platform_hardware_qcom_media" remote="github" revision="TwistedScarlett" />
 
-    <remove-project name="lin18-microG/android_vendor_qcom_opensource_system_bt" />
-
-    <project path="vendor/qcom/opensource/commonsys/system/bt" name="yamaizano/android_vendor_qcom_opensource_system_bt" remote="github" revision="lineage-18.1" />
-
-    <remove-project name="LineageOS-Revived/android_packages_apps_Settings" />
-    <project path="packages/apps/Settings" name="yamaizano/android_packages_apps_Settings" remote="github" revision="lineage-18.1" />
-
     <remove-project name="LineageOS/android_external_chromium-webview_patches" />
     <project path="external/chromium-webview/patches" name="yamaizano/android_external_chromium-webview_patches" remote="github" revision="main" >
 	    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
