@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/xiaomi/whyred" name="yamaizano/android_device_xiaomi_whyred" remote="github" revision="lineage-18.1-test2" />
+    <project path="device/xiaomi/whyred" name="yamaizano/android_device_xiaomi_whyred" remote="github" revision="havoc" />
     <project path="kernel/xiaomi/whyred" name="Reinazhard/android_kernel_xiaomi_whyred" remote="github" revision="lineage-18.1-staging" />
     <project path="vendor/xiaomi/whyred" name="yamaizano/android_vendor_xiaomi_whyred" remote="github" revision="lineage-18.1-rebase" />
 
