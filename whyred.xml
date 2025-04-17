@@ -1,35 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/xiaomi/whyred" name="yamaizano/android_device_xiaomi_whyred" remote="github" revision="havoc" />
+    <project path="device/xiaomi/whyred" name="yamaizano/android_device_xiaomi_whyred" remote="github" revision="crdroid" />
     <project path="kernel/xiaomi/whyred" name="yamaizano/android_kernel_xiaomi_sdm660" remote="github" revision="main" />
     <project path="vendor/xiaomi/whyred" name="yamaizano/android_vendor_xiaomi_whyred" remote="github" revision="lineage-18.1-rebase" />
-
-    <remove-project name="android_hardware_qcom_display" />
-    <remove-project name="android_hardware_qcom_audio" />
-    <remove-project name="android_hardware_qcom_media" />
-
-    <remove-project name="android_frameworks_native" />
-    <project path="frameworks/native" name="yamaizano/android_frameworks_native-havoc" remote="github" revision="eleven" />
-
-    <remove-project name="android_vendor_qcom_opensource_system_bt" />
-    <project path="vendor/qcom/opensource/commonsys/system/bt" name="yamaizano/android_vendor_qcom_opensource_system_bt" remote="github" revision="lineage-18.1" />
 
     <project path="hardware/qcom-caf/sdm660/display" name="yamaizano/platform_hardware_qcom_display" remote="github" revision="TwistedScarlett" />
     <project path="hardware/qcom-caf/sdm660/audio" name="yamaizano/platform_hardware_qcom_audio" remote="github" revision="TwistedScarlett" />
     <project path="hardware/qcom-caf/sdm660/media" name="yamaizano/platform_hardware_qcom_media" remote="github" revision="TwistedScarlett" />
-
-    <remove-project name="android_external_chromium-webview_patches" />
-    <project path="external/chromium-webview/patches" name="yamaizano/android_external_chromium-webview_patches" remote="github" revision="main" >
-	    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
-	    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
-	    <linkfile src="README" dest="external/chromium-webview/README" />
-    </project>
-
-    <remove-project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
-    <remove-project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
-    <remove-project name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" />
-
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" revision="lineage-18.1" remote="github" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" revision="lineage-18.1" remote="github" />
-    <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" revision="lineage-18.1" remote="github" />
 </manifest>
