@@ -2,7 +2,7 @@
 <manifest>
     <project path="device/xiaomi/whyred" name="yamaizano/android_device_xiaomi_whyred" remote="github" revision="dotos" />
     <project path="kernel/xiaomi/whyred" name="yamaizano/android_kernel_xiaomi_sdm660" remote="github" revision="main" />
-    <project path="vendor/xiaomi/whyred" name="yamaizano/android_vendor_xiaomi_whyred" remote="github" revision="lineage-18.1-rebase" />
+    <project path="vendor/xiaomi/whyred" name="yamaizano/android_vendor_xiaomi_whyred" remote="github" revision="LOS18.1" />
 
     <project path="hardware/qcom-caf/sdm660/display" name="yamaizano/platform_hardware_qcom_display" remote="github" revision="TwistedScarlett" />
     <project path="hardware/qcom-caf/sdm660/audio" name="yamaizano/platform_hardware_qcom_audio" remote="github" revision="TwistedScarlett" />
