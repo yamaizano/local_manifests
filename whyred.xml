@@ -9,5 +9,5 @@
     <project path="hardware/qcom-caf/sdm660/media" name="yamaizano/platform_hardware_qcom_media" remote="github" revision="TwistedScarlett" />
 
     <remove-project name="platform/external/perfetto" />
-    <project path="external/perfetto" name="yamaizano/perfetto" remote="github" revision="eleven" />
+    <project path="external/perfetto" name="yamaizano/perfetto" remote="github" revision="android-11.0.0_r48" />
 </manifest>
