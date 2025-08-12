@@ -2,7 +2,7 @@
 <manifest>
     <project path="device/xiaomi/whyred" name="yamaizano/android_device_xiaomi_whyred" remote="github" revision="lineage-21" />
     <project path="kernel/xiaomi/whyred" name="yamaizano/android_kernel_xiaomi_whyred" remote="github" revision="master" />
-    <project path="vendor/xiaomi/whyred" name="yamaizano/android_vendor_xiaomi_whyred" remote="github" revision="lineage-20" />
+    <project path="vendor/xiaomi/whyred" name="yamaizano/android_vendor_xiaomi_whyred" remote="github" revision="lineage-21" />
 
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
