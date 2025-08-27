@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/xiaomi/whyred" name="yamaizano/android_device_xiaomi_whyred" remote="github" revision="lineage-21" />
-    <project path="kernel/xiaomi/whyred" name="yamaizano/android_kernel_xiaomi_whyred" remote="github" revision="master" />
-    <project path="vendor/xiaomi/whyred" name="yamaizano/android_vendor_xiaomi_whyred" remote="github" revision="lineage-21" />
+    <remote  name="personal"
+             fetch="https://github.com/yamaizano" />
 
-    <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <remove-project name="LineageOS/android_hardware_qcom_audio" />
-    <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <project path="hardware/qcom-caf/sdm660/display" name="yamaizano/platform_hardware_qcom_display" remote="github" revision="TwistedScarlett" />
-    <project path="hardware/qcom-caf/sdm660/audio" name="yamaizano/platform_hardware_qcom_audio" remote="github" revision="TwistedScarlett" />
-    <project path="hardware/qcom-caf/sdm660/media" name="yamaizano/platform_hardware_qcom_media" remote="github" revision="TwistedScarlett" />
+    <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="personal" revision="lmodroid" />
+    <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="personal" revision="master" />
+    <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="personal" revision="lmodroid" />
+
+    <remove-project name="android_hardware_qcom_display" />
+    <remove-project name="android_hardware_qcom_audio" />
+    <remove-project name="android_hardware_qcom_media" />
+    <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom_display" remote="personal" revision="TwistedScarlett" />
+    <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom_audio" remote="personal" revision="TwistedScarlett" />
+    <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom_media" remote="personal" revision="TwistedScarlett" />
 </manifest>
